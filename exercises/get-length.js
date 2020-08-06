@@ -8,6 +8,9 @@
  */
 
 // Your code:
+function getLength(parm) {
+  return parm.length
+}
 
 //* Begin of tests
 const assert = require('assert');
