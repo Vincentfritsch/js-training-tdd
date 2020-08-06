@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b05ffd-be7e-4796-a42e-b2c63d8d5f0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercises/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/repeat.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/repeat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596701489426</updated>
-      <workItem from="1596701490769" duration="6644000" />
+      <workItem from="1596701490769" duration="9159000" />
     </task>
     <servers />
   </component>
