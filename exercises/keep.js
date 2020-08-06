@@ -13,9 +13,17 @@
  */
 
 // Your code:
-
+function keepFirst(str)
+{
+  if (str.length>2)
+  {return str.substr(0,2)}
+  else {return "Entrer un mot de plus de 2 lettres"}
+}
 //* Begin of tests
 const assert = require('assert');
-
-assert.fail('You must write your own tests');
+assert.strictEqual(typeof keepFirst, 'function');
+assert.strictEqual(keepFirst.length, 1);
+assert.strictEqual(keepFirst('abc'), 'ab');
+assert.strictEqual(keepFirst('ab'), "Entrer un mot de plus de 2 lettres");
+//assert.fail('You must write your own tests');
 // End of tests */
