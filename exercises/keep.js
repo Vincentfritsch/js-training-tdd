@@ -26,6 +26,13 @@ function keepLast(str)
   {return str.substr(str.length -2,2)}
   else {return "Entrer un mot de plus de 2 lettres"}
 }
+
+function keepFirstLast(str)
+{
+  if (str.length>4)
+  {return keepFirst(str) + keepLast(str)}
+  else {return "ENtrer un mot de plus de 4 lettres"}
+}
 //* Begin of tests
 const assert = require('assert');
 assert.strictEqual(typeof keepFirst, 'function');
@@ -35,5 +42,8 @@ assert.strictEqual(keepFirst('ab'), "Entrer un mot de plus de 2 lettres");
 assert.strictEqual(typeof keepLast,'function')
 assert.strictEqual(keepLast.length, 1)
 assert.strictEqual(keepLast('abc'), 'bc')
+assert.strictEqual(typeof keepFirstLast, 'function')
+assert.strictEqual(keepFirstLast.length, 1)
+assert.strictEqual(keepFirstLast('abcde'), 'abde')
 //assert.fail('You must write your own tests');
 // End of tests */
