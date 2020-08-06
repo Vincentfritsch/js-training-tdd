@@ -13,9 +13,20 @@ const sourceObject = {
   bool: true,
   str: 'some text',
   log: console.log,
+
 };
 
 // Your code:
+function get(param) {
+  if (param == 'num')
+  {return sourceObject.num}
+  if (param=='bool')
+  {return sourceObject.bool}
+  if (param == 'str')
+  {return sourceObject.str}
+  if (param == 'log')
+  {return sourceObject.log}
+}
 
 //* Begin of tests
 const assert = require('assert');
