@@ -11,9 +11,15 @@
  */
 
 // Your code:
-
+function jadenCase (str) {
+  return (str + '').replace(/^([a-z])|\s+([a-z])/g, function ($1) {
+    return $1.toUpperCase();
+  });
+}
 //* Begin of tests
 const assert = require('assert');
-
-assert.fail('You must write your own tests');
+assert.strictEqual(typeof jadenCase, 'function' )
+assert.strictEqual(jadenCase.length, 1)
+assert.strictEqual(jadenCase('hello world'), 'Hello World')
+//assert.fail('You must write your own tests');
 // End of tests */
