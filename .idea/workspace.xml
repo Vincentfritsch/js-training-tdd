@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b05ffd-be7e-4796-a42e-b2c63d8d5f0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercises/repeat.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/repeat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/circular.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/circular.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1fiWeYWB5J4A9xi6NsF8Dl8jhHe" />
   <component name="ProjectViewState">
@@ -40,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596701489426</updated>
-      <workItem from="1596701490769" duration="9159000" />
+      <workItem from="1596701490769" duration="19565000" />
     </task>
     <servers />
   </component>
