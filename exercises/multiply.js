@@ -13,19 +13,19 @@ function multiply(x,y) {
   let res = 0
   if (y>0) {
     while(y>0){
-    res = res + x
+    res += x
     y--
   }
     }
   else if(x>0) {
     while(x>0) {
-    res = res + y
+    res += y
     x--
   }
     }
   else {
     while(x<0){
-      res = res -y
+      res -= y
       x++
     }
   }

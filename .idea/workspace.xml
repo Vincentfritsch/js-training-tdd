@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33b05ffd-be7e-4796-a42e-b2c63d8d5f0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/multiply-recursive.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/multiply-recursive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercises/multiply.js" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/multiply.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596701489426</updated>
       <workItem from="1596701490769" duration="19565000" />
-      <workItem from="1596798749900" duration="9083000" />
+      <workItem from="1596798749900" duration="12127000" />
     </task>
     <servers />
   </component>
